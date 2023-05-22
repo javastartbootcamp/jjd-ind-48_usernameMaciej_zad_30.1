@@ -27,8 +27,4 @@ public class HomeController {
         }
     }
 
-    @GetMapping("/success")
-    String success() {
-        return "success";
-    }
 }
